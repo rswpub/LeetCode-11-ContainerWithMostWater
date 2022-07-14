@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode-11-ContainerWithMostWater", "LeetCode-11-ContainerWithMostWater\LeetCode-11-ContainerWithMostWater.csproj", "{32D9A030-ECF7-4D64-A0BF-66249B2EC6E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{AB8C2DB1-0301-49E6-A3CD-69D7CFF6A091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32D9A030-ECF7-4D64-A0BF-66249B2EC6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D9A030-ECF7-4D64-A0BF-66249B2EC6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D9A030-ECF7-4D64-A0BF-66249B2EC6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D9A030-ECF7-4D64-A0BF-66249B2EC6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8C2DB1-0301-49E6-A3CD-69D7CFF6A091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8C2DB1-0301-49E6-A3CD-69D7CFF6A091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8C2DB1-0301-49E6-A3CD-69D7CFF6A091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8C2DB1-0301-49E6-A3CD-69D7CFF6A091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E5582A6-433A-499F-BBD7-4C8780E4167D}
+	EndGlobalSection
+EndGlobal
