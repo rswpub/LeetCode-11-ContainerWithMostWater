@@ -21,4 +21,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LeetCode-11-ContainerWithMostWater\LeetCode-11-ContainerWithMostWater.csproj" />
+  </ItemGroup>
+
 </Project>
