@@ -11,7 +11,24 @@
             // Validate core constraints first
             CheckConstraints(height);
 
-            throw new NotImplementedException();
+            int maxArea = 0;
+
+            // Go through each pair of "vertical lines" in the array and calculate the area between them.
+            // Choose the greatest from among them all.
+            for (int i = 0; i < height.Length - 1; i++)
+            {
+                for (int j = i + 1; j < height.Length; j++)
+                {
+                    int area = (Math.Min(height[i], height[j])) * (j - i);
+
+                    if (area > maxArea)
+                    {
+                        maxArea = area;
+                    }
+                }
+            }
+
+            return maxArea;
         }
 
         private void CheckConstraints(int[] height)
