@@ -17,13 +17,27 @@
             // Choose the greatest from among them all.
             for (int i = 0; i < height.Length - 1; i++)
             {
-                for (int j = i + 1; j < height.Length; j++)
+                for (int j = height.Length - 1; j > i; j--)
                 {
-                    int area = (Math.Min(height[i], height[j])) * (j - i);
-
-                    if (area > maxArea)
+                    if (height[j] >= height[i])
                     {
-                        maxArea = area;
+                        int area = height[i] * (j - i);
+
+                        if (area > maxArea)
+                        {
+                            maxArea = area;
+                        }
+
+                        break;
+                    }
+                    else
+                    {
+                        int area = height[j] * (j - i);
+
+                        if (area > maxArea)
+                        {
+                            maxArea = area;
+                        }
                     }
                 }
             }
